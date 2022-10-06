@@ -7,7 +7,7 @@ import HeroText from '../components/HeroText'
 
 export default function Details() {
   return (
-    <Box pl={'150px'} pt={'75px'} pr={'700px'}>
+    <Box pl={'150px'} pt={'75px'} width={600}>
         <Img src={Logo}></Img>
         <Heading/>
         <HeroText/>
