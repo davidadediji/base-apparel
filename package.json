@@ -15,7 +15,8 @@
     "@fontsource/josefin-sans": "^4.5.11",
     "framer-motion": "^7.5.2",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "@types/react": "latest",
