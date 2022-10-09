@@ -6,7 +6,7 @@ import '../utils/index.css';
 
 export const Form = () => {
 	const [message, setMessage] = useState<string>('');
-	const [isError, setIsError] = useState<Boolean>();
+	const [isError, setIsError] = useState<boolean>();
 
 	const handleClick = () => {
 		if (message.includes('@') && message !== '') {
